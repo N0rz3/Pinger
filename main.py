@@ -44,9 +44,9 @@ def main():
         host = sys.argv[1] if len(sys.argv) == 2 else f'{ip}'
         result = ping(host)
         if result:
-            print(f'{host} est accessible')
+            print(f'{host} is accessible')
         else:
-            print(f'{host} est inaccessible')
+            print(f'{host} is not accessible')
             
     input(Fore.CYAN+"\n[!] Operation Finsh ")
 
