@@ -30,7 +30,7 @@ print(banner)
 print(text)
 
 ip = input(f"\n\n\n{Fore.WHITE}[{Fore.LIGHTBLUE_EX}?{Fore.WHITE}] {Fore.LIGHTBLUE_EX}Please Enter Your Ip Address {Fore.WHITE}-> ")
-threads = int(input(f"{Fore.WHITE}[{Fore.LIGHTBLUE_EX}?{Fore.WHITE}] {Fore.LIGHTBLUE_EX}Please Enter The Number Of Ping {Fore.WHITE}-> "))
+numbers = int(input(f"{Fore.WHITE}[{Fore.LIGHTBLUE_EX}?{Fore.WHITE}] {Fore.LIGHTBLUE_EX}Please Enter The Number Of Ping {Fore.WHITE}-> "))
 
 def ping(host):
     param = '-n' if platform.system().lower() == 'windows' else '-c'
@@ -39,7 +39,7 @@ def ping(host):
 
 
 def main():
-    for _ in range(threads):
+    for _ in range(numbers):
         time.sleep(1)
         host = sys.argv[1] if len(sys.argv) == 2 else f'{ip}'
         result = ping(host)
