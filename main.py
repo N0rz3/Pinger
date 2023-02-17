@@ -47,8 +47,6 @@ def main():
             print(f'{host} est accessible')
         else:
             print(f'{host} est inaccessible')
-       
-        input(Fore.CYAN+"\n[!] Operation finish ")
 
 
 if __name__ == '__main__':
