@@ -1,0 +1,7 @@
+pystyle
+colorama
+time
+os
+sys
+platform
+subprocess
