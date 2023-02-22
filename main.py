@@ -21,7 +21,7 @@ banner = """
 
 
 """
-text = """\n\nEASY PINGER BY NORZE#0001"""
+text = """\n\nEASY PINGER BY NORZE#9666"""
 
 banner = Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter(banner))
 text = Colorate.Diagonal(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter(text))
